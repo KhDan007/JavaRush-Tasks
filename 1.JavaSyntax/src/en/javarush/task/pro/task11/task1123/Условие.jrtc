@@ -1,0 +1,13 @@
+taskKey="en.javarush.task.pro.task11.task1123"\n\nFeel like a university dean
+
+We have a student group at a university and a method that should remove a specific student from the group,
+but for some reason it doesn&#39;t work.
+Your task is to find the error and fix it so that the exclude method does actually remove the student.
+
+
+Требования:
+1.	The UniversityGroup class must have a public non-static List&lt;String&gt; students field.
+2.	The UniversityGroup class must have a public non-static exclude(String) method with a void return type.
+3.	The exclude method must remove the passed student from the list.
+
+

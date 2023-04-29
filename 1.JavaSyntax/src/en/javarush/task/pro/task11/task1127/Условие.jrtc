@@ -1,0 +1,12 @@
+taskKey="en.javarush.task.pro.task11.task1127"\n\nAn inherited phone
+
+The extends and implements keywords must be correctly positioned in the provided classes to allow the program to compile.
+
+
+Требования:
+1.	The SmartFunctions interface must compile.
+2.	The SmartPhone class must compile.
+3.	The Jphone class must compile.
+4.	The Gnusmas class must compile.
+
+

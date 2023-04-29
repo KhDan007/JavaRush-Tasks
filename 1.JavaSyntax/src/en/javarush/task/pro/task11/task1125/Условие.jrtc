@@ -1,0 +1,14 @@
+taskKey="en.javarush.task.pro.task11.task1125"\n\nMaking a list of students
+
+The main method should add two students to an array and then display on the console using the printStudents method.
+Make corrections in the main method so that the program works.
+
+
+Требования:
+1.	The University class must have a final private non-static String[] students field that is initialized immediately.
+2.	The University class should have a public void addStudent(String) method that adds the passed student to the students list.
+3.	The University class should have a public void printStudents method that prints all the students on the console.
+4.	The main method must call the addStudent method twice.
+5.	The main method must call the printStudents method once.
+
+

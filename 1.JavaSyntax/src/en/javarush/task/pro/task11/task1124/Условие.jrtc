@@ -1,0 +1,13 @@
+taskKey="en.javarush.task.pro.task11.task1124"\n\nMacCoffee 3 in 1
+
+We have a set of classes for making 3-in-1 coffee, but for some reason the coffee won&#39;t brew &mdash; the task
+does not compile at present. Find and fix one mistake in the code.
+
+
+Требования:
+1.	The Coffee.java file must have a Coffee class.
+2.	The Coffee.java file must have a Sugar class.
+3.	The Coffee class must have a public static Milk class.
+4.	The program must compile.
+
+

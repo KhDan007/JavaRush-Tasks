@@ -1,0 +1,10 @@
+taskKey="en.javarush.task.pro.task11.task1111"\n\nOh, these damnable quotation marks
+
+The code already has quotation marks, but as it turns out, there are not enough of them.
+Fix mistakes in the code, so that the program compiles and works correctly.
+
+
+Требования:
+1.	The compilation errors in the main method of the Solution class must be fixed.
+
+

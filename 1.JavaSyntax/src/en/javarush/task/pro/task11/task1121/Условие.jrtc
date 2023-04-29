@@ -1,0 +1,11 @@
+taskKey="en.javarush.task.pro.task11.task1121"\n\nForgotten initialization
+
+In this program, an array is filled with the numbers from 0 to 9 and displayed on the screen:
+But thanks to an error, the program doesn&#39;t compile.
+Make the program compile and work correctly.
+
+
+Требования:
+1.	Correct the error so that the program works correctly.
+
+

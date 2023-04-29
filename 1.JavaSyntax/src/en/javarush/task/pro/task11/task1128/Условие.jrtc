@@ -1,0 +1,14 @@
+taskKey="en.javarush.task.pro.task11.task1128"\n\nDigits as text
+
+The program converts digits to text. The Solution class has a static digitToText(char) method,
+which returns the textual representation of digits. In the main method, a number is translated
+into a textual representation, but only &quot;nine nine ...&quot; is displayed. Add the required number of break statements
+to the digitToText(char) method, so that it returns the correct textual representation of the digit.
+The main method is not checked.
+
+
+Требования:
+1.	The Solution class must have a public static digitToText(char) method that returns a String.
+2.	The digitToText(char) method must return the textual representation of the corresponding digit.
+
+

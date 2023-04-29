@@ -1,0 +1,19 @@
+taskKey="en.javarush.task.jdk13.task05.task0513"\n\nLet's put together a rectangle
+
+The data for the rectangle (Rectangle class) will be top, left, width, and height.
+Create as many initialize(...) methods as possible
+Examples:
+- 4 parameters are specified: left, top, width, height
+- width/height is not specified (both are 0);
+- height is not specified (it is equal to the width), we&#39;ll create a square
+- create a copy of another rectangle passed as an argument.
+
+
+Требования:
+1.	The Rectangle class must have int variables top, left, width and height.
+2.	The class must have at least one initialize method.
+3.	The class must have at least two initialize methods.
+4.	The class must have at least three initialize methods.
+5.	The class must have at least four initialize methods.
+
+

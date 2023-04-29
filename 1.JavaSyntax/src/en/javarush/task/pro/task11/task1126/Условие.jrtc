@@ -1,0 +1,14 @@
+taskKey="en.javarush.task.pro.task11.task1126"\n\nStudent
+
+The main method of the Solution class creates an instance of the Student class with a specific name,
+but the program does not compile.
+You need to fix an error in the Student class to allow the program to compile and display the student&#39;s name
+on the console when it runs.
+
+
+Требования:
+1.	Don&#39;t change the main method.
+2.	The Student class must have a constructor with one parameter.
+3.	The constructor must initialize the name field with the passed argument.
+
+

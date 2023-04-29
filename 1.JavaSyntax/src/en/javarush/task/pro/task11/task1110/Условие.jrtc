@@ -1,0 +1,10 @@
+taskKey="en.javarush.task.pro.task11.task1110"\n\nPeriod and comma
+
+Periods and commas are important for more than just punctuation in ordinary text.
+Fix mistakes in the code, so that the program compiles and works correctly.
+
+
+Требования:
+1.	The compilation errors in the main method of the Solution class must be fixed.
+
+

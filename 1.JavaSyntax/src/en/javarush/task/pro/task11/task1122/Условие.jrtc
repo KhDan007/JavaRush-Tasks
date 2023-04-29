@@ -1,0 +1,12 @@
+taskKey="en.javarush.task.pro.task11.task1122"\n\nInstance field shadowing
+
+The main method calls the add method, which should increase the value of the salary field of the Solution class
+by the passed value, but we get 0 when we output the salary field. Make the program work correctly.
+
+
+Требования:
+1.	The Solution class must have a public static int salary field.
+2.	The Solution class must have a public static add(int) method with a void return type.
+3.	Correct the error so that the program works correctly.
+
+

@@ -1,0 +1,15 @@
+taskKey="en.javarush.task.jdk13.task05.task0512"\n\nPopulate the Circle class
+
+The Circle class must have three initializers:
+- centerX, centerY, radius
+- centerX, centerY, radius, width
+- centerX, centerY, radius, width, color.
+
+
+Требования:
+1.	The Circle class must have int variables centerX, centerY, radius, width and color.
+2.	The class must have an initialize method that takes centerX, centerY, and radius as arguments, and initializes the corresponding instance variables.
+3.	The class must have an initialize method that takes centerX, centerY, radius, and width as arguments, and initializes the corresponding instance variables.
+4.	The class must have an initialize method that takes centerX, centerY, radius, width, and color as arguments, and initializes the corresponding instance variables.
+
+

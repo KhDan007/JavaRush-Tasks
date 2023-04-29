@@ -1,0 +1,12 @@
+taskKey="en.javarush.task.jdk13.task05.task0515"\n\nInitializing objects
+
+Study the Person class carefully.
+Correct the class so that only one initialize method initializes all of the Person class&#39;s instance variables.
+
+
+Требования:
+1.	The Person class must have 5 variables.
+2.	The class must have one initialize method.
+3.	The initialize method must have five parameters.
+
+

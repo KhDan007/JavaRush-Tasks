@@ -1,0 +1,10 @@
+taskKey="en.javarush.task.pro.task11.task1120"\n\nEvery letter is lowercase
+
+The program should read a string from the console and display it in all lowercase letters.
+Fix a mistake in the code, so that the program works correctly.
+
+
+Требования:
+1.	The program should read a string from the console and display it in all lowercase letters.
+
+

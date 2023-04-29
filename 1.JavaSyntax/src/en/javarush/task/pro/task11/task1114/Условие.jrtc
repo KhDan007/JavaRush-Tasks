@@ -1,0 +1,10 @@
+taskKey="en.javarush.task.pro.task11.task1114"\n\nAnd parentheses once again
+
+It seems that once again the problem is with the parentheses. But with different ones this time.
+Fix mistakes in the code, so that the program compiles and works correctly.
+
+
+Требования:
+1.	You need to fix the compilation errors in the main method of the Solution class.
+
+
