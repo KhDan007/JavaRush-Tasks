@@ -47,8 +47,10 @@ public class Solution {
         public void run() {
             try {
                 while (!Thread.currentThread().isInterrupted()) {
-                    result.add(reader.readLine());
-                    readStringCount.incrementAndGet();
+                    if (reader.ready()) {
+                        result.add(reader.readLine());
+                        readStringCount.incrementAndGet();
+                    }
                 }
             } catch (IOException e) {
                 throw new RuntimeException(e);
