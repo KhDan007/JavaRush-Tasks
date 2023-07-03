@@ -7,20 +7,6 @@ import java.io.*;
 */
 
 public class Solution {
-//    public static void main(String[] args) {
-//        try (BufferedReader fileReader = new BufferedReader(new FileReader(args[0]));
-//             FileWriter fileWriter = new FileWriter(args[1])
-//        ) {
-//            String[] words = fileReader.readLine().split(" ");
-//            for (String word : words) {
-//                if (word.matches(".*\\d.*")) {
-//                    fileWriter.write(word + " ");
-//                }
-//            }
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
     public static void main(String[] args) {
         try (BufferedReader fileReader = new BufferedReader(new FileReader(args[0]));
              FileWriter fileWriter = new FileWriter(args[1])) {
