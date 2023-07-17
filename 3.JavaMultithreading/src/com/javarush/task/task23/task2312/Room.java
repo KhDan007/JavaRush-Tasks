@@ -1,6 +1,7 @@
 package com.javarush.task.task23.task2312;
 
 import java.awt.event.KeyEvent;
+import java.util.Arrays;
 
 public class Room {
     private int width;
@@ -90,9 +91,45 @@ public class Room {
 
     public void print() {
         //Создаем массив, куда будем "рисовать" текущее состояние игры
+        int[][] screen = new int[height][width];
+
+        for (int i = 0; i < height; i++) {
+            Arrays.fill(screen[i], 0);
+        }
+
         //Рисуем все кусочки змеи
+        for (int i = 0; i < snake.getSections().size(); i++) {
+            SnakeSection s = snake.getSections().get(i);
+            if (i==0) {
+                screen[s.getY()][s.getX()] = 2;
+                continue;
+            }
+            screen[s.getY()][s.getX()] = 1;
+        }
+
         //Рисуем мышь
+        screen[mouse.getY()][mouse.getX()] = 3;
+
         //Выводим все это на экран
+        for (int i = 0; i < screen.length; i++) {
+            for (int j = 0; j < screen[i].length; j++) {
+                switch (screen[i][j]) {
+                    case 0:
+                        System.out.print(".");
+                        break;
+                    case 1:
+                        System.out.print("x");
+                        break;
+                    case 2:
+                        System.out.print("X");
+                        break;
+                    case 3:
+                        System.out.print("^");
+                        break;
+                }
+            }
+            System.out.println();
+        }
     }
 
     public void eatMouse() {
